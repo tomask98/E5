@@ -29,6 +29,7 @@ function error(){
     if(formulario<pizzas.length){
     const MsgError = document.createElement('h2')
     MsgError.innerHTML = "Pizza no encontrada"
+   
     error.appendChild(MsgError)
     }
     

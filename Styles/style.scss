@@ -1,0 +1,66 @@
+html{
+    margin: 0;
+    background-image: url(../Assets/shardar-tarikul-islam-YWdcZ0ZC5q0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formulario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  
+    background-image: url(../Assets/nav.jpg);
+    background-size: contain;
+    background-size: 250px;
+    height: 80px;
+    
+    img{
+        height: 80px;
+        width: 80px;
+        
+
+    }
+    .Btn_Todo{
+        margin-right: 30px;
+    }
+    .Nombre{
+        width: 300px;
+        text-align: center;
+    }
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    height: auto;
+    width: 250px;
+    color: beige;
+    border: 2px solid beige;
+  background-image: url(../Assets/nav.jpg);
+  background-size: 200px;
+  border-radius: 25px;
+
+    img{
+        height: 150px;
+        width: 150px;
+        margin: 10px;
+        border-radius: 50px;
+    }
+    h2,h3{
+        font-size: 20px;
+        
+    }
+
+    li{
+        list-style: none;
+    }
+}
