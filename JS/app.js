@@ -46,7 +46,7 @@ function MostrarTodo (){
       console.log(pizza);
       const contenedor = document.createElement('div')
       const cards = document.querySelector('.cards')
-      contenedor.classList.add('.cards')
+      contenedor.classList.add('container')
 
       contenedor.innerHTML= `<h2>${nombre}</h2>
                               <img src='${image}'> `
