@@ -18,7 +18,7 @@ html {
   height: 80px;
   width: 80px;
 }
-.formulario .Btn_Todo {
+.formulario .Btn_Submin {
   margin-right: 30px;
 }
 .formulario .Nombre {
@@ -32,6 +32,27 @@ html {
   align-items: center;
 }
 
+.cards {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+  text-align: center;
+  color: #f17a04;
+  border: 2px solid #f17a04;
+  background-image: url(../Assets/nav.jpg);
+  background-size: 200px;
+  border-radius: 25px;
+}
+.cards img {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  border-radius: 50px;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -39,8 +60,8 @@ html {
   margin-top: 30px;
   height: auto;
   width: 250px;
-  color: beige;
-  border: 2px solid beige;
+  color: #f17a04;
+  border: 2px solid #f17a04;
   background-image: url(../Assets/nav.jpg);
   background-size: 200px;
   border-radius: 25px;
@@ -54,8 +75,11 @@ html {
 .card h2, .card h3 {
   font-size: 20px;
 }
-.card li {
+.card ul {
   list-style: none;
+  background-color: grey;
+  filter: blur(0.25px);
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

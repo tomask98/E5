@@ -1,6 +1,6 @@
 html{
     margin: 0;
-    background-image: url(../Assets/shardar-tarikul-islam-YWdcZ0ZC5q0-unsplash.jpg);
+   background-image: url(../Assets/shardar-tarikul-islam-YWdcZ0ZC5q0-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -22,7 +22,7 @@ html{
         
 
     }
-    .Btn_Todo{
+    .Btn_Submin{
         margin-right: 30px;
     }
     .Nombre{
@@ -35,7 +35,30 @@ html{
     flex-direction: column;
     align-items: center;
 }
+.cards{
+    
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    text-align: center;
+    color: #f17a04;
+    border: 2px solid #f17a04;
+  background-image: url(../Assets/nav.jpg);
+  background-size: 200px;
+  border-radius: 25px;
 
+
+    img{
+        height: 150px;
+        width: 150px;
+        margin: 10px;
+        border-radius: 50px;
+    }
+
+}
 .card{
     display: flex;
     flex-direction: column;
@@ -43,8 +66,8 @@ html{
     margin-top: 30px;
     height: auto;
     width: 250px;
-    color: beige;
-    border: 2px solid beige;
+    color: #f17a04;
+    border: 2px solid #f17a04;
   background-image: url(../Assets/nav.jpg);
   background-size: 200px;
   border-radius: 25px;
@@ -60,7 +83,11 @@ html{
         
     }
 
-    li{
+    ul{
         list-style: none;
+        background-color: grey;
+       filter: blur(0.25px);
+       border-radius: 5px;
     }
+    
 }

@@ -1,10 +1,10 @@
 export function crearCard(pizza) {
-    limpiarHTML()
+   limpiarHTML()
     
     
     const img = document.createElement('img')
     img.classList.add('card-img')
-    img.src = pizza.img
+    img.src = pizza.image
     card.appendChild(img)
 
    
